@@ -3,12 +3,13 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Bangers', cursive;
+    background-color: gray;
 }
 
 canvas {
     background: black;
     position: absolute;
-    top: 0;
+    top: 150px;
     left: 0;
 }
 input {
@@ -17,4 +18,7 @@ input {
     padding: 10px;
     margin: 10px;
     z-index: 100;
+    top: 150px;
+    background: white;
+    color:black;
 }
