@@ -4,7 +4,7 @@ window.addEventListener('load', function(){
         willReadFrequently: true
     });
     canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    canvas.height = window.innerHeight * 0.8;
 
     class Particle {
         constructor(effect, x, y, color){
@@ -70,8 +70,8 @@ window.addEventListener('load', function(){
             this.gap = 3;
             this.mouse = {
                 radius: 20000,
-                x: 0,
-                y: 0
+                x: -0,
+                y: -0
             }
             window.addEventListener('mousemove', (e) => {
                 this.mouse.x = e.x;
